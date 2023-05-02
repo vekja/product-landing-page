@@ -26,7 +26,7 @@ h2 h3, h4, h5, h6 {
 font-weight: 800;
 margin: 20px 0;
 color: #e0e0d1;
-font-size: 2rem;;
+font-size: 2rem;
 }
 
 
@@ -78,65 +78,130 @@ padding-bottom: 10px;
 }
 
 #bym-hatchingeggs {
-    border: solid #4d4d33;
+    border: 8px solid #4d4d33;
     padding-bottom: 10px;
     padding-top: 20px;
     margin-bottom: 30px;
     margin-top: 50px;
-    margin-left: 300px;
-    margin-right: 300px; 
+    margin-left: 100px;
+    margin-right: 100px; 
 }
 
 #russian-pavlov {
-    border: solid #4d4d33;
+    border: 8px solid #4d4d33;
     padding-bottom: 10px;
     padding-top: 20px;
     margin-bottom: 30px;
-    margin-left: 300px;
-    margin-right: 300px;    
+    margin-left: 100px;
+    margin-right: 100px;    
 }
 
 #dutch-owlbeards {
-    border: solid #4d4d33;
+    border: 8px solid #4d4d33;
     padding-bottom: 10px;
     padding-top: 20px;
     margin-bottom: 30px;
-    margin-left: 300px;
-    margin-right: 300px; 
+    margin-left: 100px;
+    margin-right: 100px; 
 }
 
 #swedish-flower-hens {
-    border: solid #4d4d33;
+    border: 8px solid #4d4d33;
     padding-bottom: 10px;
     padding-top: 20px;
     margin-bottom: 30px;
-    margin-left: 300px;
-    margin-right: 300px; 
+    margin-left: 100px;
+    margin-right: 100px; 
 }
 
 #golden-deathlayer {
-    border: solid #4d4d33; 
+    border: 8px solid #4d4d33; 
     padding-bottom: 10px;
     padding-top: 20px;
     margin-bottom: 30px;
-    margin-left: 300px;
-    margin-right: 300px;  
+    margin-left: 100px;
+    margin-right: 100px;  
 }
 
 #honey {
-    border: solid #4d4d33;  
+    border: 8px solid #4d4d33;  
     padding-bottom: 10px;
     padding-top: 20px;
     margin-bottom: 30px;
-    margin-left: 300px;
-    margin-right: 300px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 /** global classes styling **/
 
 .level {
     font-size: 1.5rem;
+    font-weight: 400;
 }
 
+.video {
+    padding-top: 2.5rem;
+}
+
+.price {
+    padding-top: 1.5rem;
+}
+
+.responsive {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+    
+    .gallery {
+    margin: 10px;
+    border: 2px solid #a5a3a3;
+    float: left;
+    width: 180px;
+    padding: 10px;
+    }
+    
+    .gallery img {
+    width: auto;
+    height: auto;
+    }
+    
+    .desc {
+    padding: 15px;
+    text-align: center;
+    }
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 6px;
+    width: 100%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+/*
 .container-one {
 max-width: 1200px;
 width: 100%;
@@ -144,21 +209,21 @@ margin: 0 auto;
 padding: 10 40px;
 
 }
-
+/*
 .section {
 padding: 50px 0;
 }
-
+/*
 .section-heading {
 text-align: center;
 }
-
+/*
 .section-content {
 display: flex;
 justify-content: space-between;
 align-items: center;
 }
-
+/*
 .section-content img {
 margin-right: 20px;
 }
@@ -189,7 +254,7 @@ color: #4d4d33;
 font-size: 24px;
 }
 
-.testimonials {
+/*.testimonials {
 background-color: #f5f5f5;
 }
 
