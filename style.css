@@ -6,7 +6,6 @@ margin: 0;
 padding: 0;
 box-sizing: border-box;
 text-align: center;
-background-color: #d6d6c2
 }
 
 
@@ -85,6 +84,7 @@ padding-bottom: 10px;
     margin-top: 50px;
     margin-left: 100px;
     margin-right: 100px; 
+    background-color: #d6d6c2
 }
 
 #russian-pavlov {
@@ -94,6 +94,7 @@ padding-bottom: 10px;
     margin-bottom: 30px;
     margin-left: 100px;
     margin-right: 100px;    
+    background-color: #d6d6c2
 }
 
 #dutch-owlbeards {
@@ -103,6 +104,7 @@ padding-bottom: 10px;
     margin-bottom: 30px;
     margin-left: 100px;
     margin-right: 100px; 
+    background-color: #d6d6c2
 }
 
 #swedish-flower-hens {
@@ -112,6 +114,7 @@ padding-bottom: 10px;
     margin-bottom: 30px;
     margin-left: 100px;
     margin-right: 100px; 
+    background-color: #d6d6c2
 }
 
 #golden-deathlayer {
@@ -120,7 +123,8 @@ padding-bottom: 10px;
     padding-top: 20px;
     margin-bottom: 30px;
     margin-left: 100px;
-    margin-right: 100px;  
+    margin-right: 100px; 
+    background-color: #d6d6c2 
 }
 
 #honey {
@@ -130,6 +134,7 @@ padding-bottom: 10px;
     margin-bottom: 30px;
     margin-left: 100px;
     margin-right: 100px;
+    background-color: #d6d6c2
 }
 /** global classes styling **/
 
@@ -158,6 +163,9 @@ padding-bottom: 10px;
     float: left;
     width: 180px;
     padding: 10px;
+    background-color: #d6d6c2;
+    width: 100%; /* Adjust this width as needed */
+    max-width: 340px; /* Added for responsiveness */
     }
     
     .gallery img {
@@ -179,89 +187,4 @@ padding-bottom: 10px;
     flex-wrap: wrap;
     justify-content: center;
     padding: 0 6px;
-    width: 100%;
   }
-  
-  @media only screen and (max-width: 700px) {
-    .responsive {
-      width: 49.99999%;
-      margin: 6px 0;
-    }
-  }
-  
-  @media only screen and (max-width: 500px) {
-    .responsive {
-      width: 100%;
-    }
-  }
-  
-  .clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-
-/*
-.container-one {
-max-width: 1200px;
-width: 100%;
-margin: 0 auto;
-padding: 10 40px;
-
-}
-/*
-.section {
-padding: 50px 0;
-}
-/*
-.section-heading {
-text-align: center;
-}
-/*
-.section-content {
-display: flex;
-justify-content: space-between;
-align-items: center;
-}
-/*
-.section-content img {
-margin-right: 20px;
-}
-
-.features {
-background-color: #fff;
-}
-
-.features .feature {
-display: flex;
-justify-content: space-between;
-align-items: center;
-padding: 20px;
-border-bottom: 1px solid #ddd;
-}
-
-.features .feature:last-child {
-border-bottom: none;
-}
-
-.features .feature .icon {
-font-size: 32px;
-margin-right: 20px;
-color: #4d4d33;
-}
-
-.features .feature h3 {
-font-size: 24px;
-}
-
-/*.testimonials {
-background-color: #f5f5f5;
-}
-
-.testimonials .testimonial {
-display: flex;
-justify-content: space-between;
-align-items: center;
-padding: 50px 20px;
-border-bottom: 1px solid #
-   
